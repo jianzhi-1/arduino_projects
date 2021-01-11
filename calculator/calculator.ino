@@ -1,9 +1,5 @@
-*
- * Arduino Keypad calculator Program
- */
-
-#include <LiquidCrystal.h> //Header file for LCD from https://www.arduino.cc/en/Reference/LiquidCrystal
-#include <Keypad.h> //Header file for Keypad from https://github.com/Chris--A/Keypad
+#include <LiquidCrystal.h>
+#include <Keypad.h>
 
 const byte ROWS = 4; // Four rows
 const byte COLS = 4; // Three columns
